@@ -1,0 +1,7 @@
+run.config:
+  engine: nodejs
+
+web.site:
+  start: node app.js
+  routes: 
+    - /
